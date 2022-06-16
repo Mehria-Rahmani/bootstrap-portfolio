@@ -1,103 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css"
+      integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Bootstrap Portfolio</title>
+  </head>
+  <body>
 
-<body>
-    <nav class="navbar navbar-expand-sm bg-light">
-        <div class="container-fluid me-auto">
-          <!-- Links -->
-          <ul class="navbar-nav">
-            <li class="ms-auto">
-              <a class="nav-link" href="#">Mehria</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <div class="container"> 
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">My Logo</a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link text-white" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+              <li class="nav-item"><i class="bi bi-envelope nav-link text-white"></i></li>
+            </ul>
+          </div>
         </div>
       </nav>
-
-      <div class="mx-auto">
-        <h1 class="">Hey There.<br>I'm Mehria</h1>
-        <h2 class="">I’am a Software Developer</h2>
-        <p class="">I am a software developer a graphic designer and a video journalist.
-            I can help you build a product, feature or website Look through some of my work and experience! If you
-            like
-            what you see and have a project you need to be coded,
-            don’t hesitate to contact me.
-        </p>
     </div>
-<ul>
-    <li class="">
-        <a  href="https://github.com/Mehria-Rahmani/Hello-Microverse.git" target="_blank" rel="noopener">
-            <img class="github icons" alt="It is Github Icon" src="assets/github.svg">
-        </a>
-    </li>
-    <li class="">
-        <a href="https://www.linkedin.com/in/mehria-rahmani-379211222" target="_blank" rel="noopener">
-            <img class="linkedin icons" alt="It is LinkedIn Icon" src="assets/linkedin.svg">
-        </a>
-    </li>
-    <li class="">
-        <a href="#" target="_blank">
-            <img class="due icons" alt="It is Medium Icon" src="assets/medium.svg">
-        </a>
-    </li>
-    <li class="">
-        <a  href="https://twitter.com/MehriaRahmani?t=QwKwWXTVBZthv4sUrOXtfQ&s=08" target="_blank" rel="noopener">
-            <img class="tweeter icons" alt="It is Tweeter Icon" src="assets/twitter.svg">
-        </a>
-    </li>
-    <li class="">
-        <a href="#" target="_blank">
-            <img class="m-icon icons" alt="it is angellist Icon" src="assets/angellist.svg">
-        </a>
-    </li>
-</ul>
 
-<section>
-    <div class="project-1">
-        <img alt="Project Image" class="project-img" src="assets/Img_Placeholder.png">
-        <div class="project-head">
-            <h2 class="heading2 multy-task">Multi-Post Stories</h2>
-            <p class="project-discription">A daily selection of privately personalized reads; no accounts or
-                sign-ups
-                required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                took
-                a standard dummy text.</p>
-            <ul class="web-icons icons-desktop">
-                <li>
-                    <img alt="It is css Icon" class="icon-web" src="assets/icons/css.png">
-                </li>
-                <li>
-                    <img alt="It is html icon" class="icon-web" src="assets/icons/html.png">
-                </li>
-                <li>
-                    <img alt="It is bootstrap Icon" class="icon-web" src="assets/icons/bootstrap.png">
-                </li>
-                <li>
-                    <img alt="It is ruby Icon" class="icon-web" src="assets/icons/puby.png">
-                </li>
-            </ul>
-            <form>
-                <button type="submit" class="animate-btn project-desktop-button button1 button1-text">See
-                    Project</button>
-            </form>
+    <div class="container m-5">
+      <h1 class="h1 text-center">Hey There.<br>I'm Mehria</h1>
+      <h2 class="lead text-center text-white">I am a Web Developer</h2>
+      <p class="lead pt-5 text-center">
+        <h2 class="h2 text-center">I’m a Software Developer</h2>
+            <p class="discription-me">I am a software developer a graphic designer and a video journalist.
+          I can help you build a product, feature or website Look through some of my work and experience! If you
+          like
+          what you see and have a project you need to be coded,
+          don’t hesitate to contact me.
+      </p>
+      <hr class="hr text-white text-center" />
+    </div>
+    <div class="container">
+      <div class="row text-start">
+        <div class="col">
+          <h3 class="h5">Language</h3>
+          <ul class="list-unstyled">
+            <li><a class="text-white text-decoration-none" href="#">Javascript</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Html</a></li>
+            <li><a class="text-white text-decoration-none" href="#">CSS</a></li>
+          </ul>
         </div>
-</section>
-      
-</body>
+        <div class="col">
+          <h3 class="h5">Frameworks</h3>
+          <ul class="list-unstyled">
+            <li><a class="text-white text-decoration-none" href="#">Bootstrap</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Ruby on Rail</a></li>
+            <li><a class="text-white text-decoration-none" href="#">ReactJs</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3 class="h5">Skills</h3>
+          <ul class="list-unstyled">
+            <li><a class="text-white text-decoration-none" href="#">GitHub</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Java</a></li>
+            <li><a class="text-white text-decoration-none" href="#">Python</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="hr text-white text-center" />
+    </div>
+    <div class="container">
+      <div class="d-flex justify-content-center img">
+        <img class="image" src="./images/github.png" alt="" />
+        <img class="image" src="./images/Linkedin.png" alt="" />
+        <img class="image" src="./images/fingers.png" alt="" />
+        <img class="image" src="./images/twitter.png" alt="" />
+        <img class="image" src="./images/medium.png" alt="" />
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="h1 text-start pt-5">My skills</h2>
+      <hr class="text-white" />
+      <div class="cards">
+        <div class="card card-1 mb-3" style="max-width: 100%">
+          <div class="row g-0">
+            <div class="col">
+              <img src="./images/Img Placeholder.png" class="img-fluid rounded-start" alt="placeholder-image"/>
+            </div>
+          </div>
+        </div>
+        <div class="card border-none mb-3 bg-transparent">
+          <div class="col">
+            <div class="card-body">
+              <h5 class="card-title text-white">Multi-Post Stories</h5>
+              <p class="card-text text-white">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <ul class="list-unstyled d-flex flex-row align-items-center">
+                <li>
+                  <a class="text-white text-decoration-none" href="#">CSS
+                    <img class="px-2" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">HTML
+                    <img class="px-3" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Bootstrap
+                    <img class="px-2" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary">See Projects</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card border-none mb-3 bg-transparent">
+          <div class="col">
+            <div class="card-body">
+              <h5 class="card-title text-white">Multi-Post Stories</h5>
+              <p class="card-text text-white">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <ul class="list-unstyled d-flex flex-row align-items-center">
+                <li>
+                  <a class="text-white text-decoration-none" href="#">CSS
+                    <img class="px-2" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">HTML
+                    <img class="px-3" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Bootstrap
+                    <img class="px-2" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary">See Projects</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-1 mb-3" style="max-width: 100%">
+          <div class="row g-0">
+            <div class="col">
+              <img src="./images/Img Placeholder.png" class="img-fluid rounded-start" alt="placeholder-image"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card card-1 mb-3" style="max-width: 100%">
+          <div class="row g-0">
+            <div class="col">
+              <img src="./images/Img Placeholder.png" class="img-fluid rounded-start" alt="placeholder-image"/>
+            </div>
+          </div>
+        </div>
+        <div class="card border-none mb-3 bg-transparent">
+          <div class="col">
+            <div class="card-body">
+              <h5 class="card-title text-white">Multi-Post Stories</h5>
+              <p class="card-text text-white">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <ul class="list-unstyled d-flex flex-row align-items-center">
+                <li>
+                  <a class="text-white text-decoration-none" href="#"
+                    >CSS<img class="px-2" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">HTML
+                    <img class="px-3" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Bootstrap
+                    <img class="px-2" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary">See Projects</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card border-none mb-3 bg-transparent">
+          <div class="col">
+            <div class="card-body">
+              <h5 class="card-title text-white">Multi-Post Stories</h5>
+              <p class="card-text text-white">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <ul class="list-unstyled d-flex flex-row align-items-center">
+                <li>
+                  <a class="text-white text-decoration-none" href="#">CSS
+                    <img class="px-2" src="./images/Rectangle 71.png" alt=""/>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">HTML
+                    <img class="px-3" src="./images/Rectangle 71.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Bootstrap
+                    <img class="px-2" src="./images/Rectangle 71.png" alt="" />
+                  </a>
+                </li>
+                <li><a class="text-white text-decoration-none" href="#">Ruby</a></li>
+              </ul>
+              <button type="button" class="btn btn-primary">See Projects</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-1 mb-3" style="max-width: 100%">
+          <div class="row g-0">
+            <div class="col">
+              <img src="./images/Img Placeholder.png" class="img-fluid rounded-start" alt="placeholder-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="container">
+        <h2 class="h2 text-center">Contact Me</h2>
+        <p class="lead pt-2 text-center">
+            I'm always interested in hearing about new projects, so if you'd like to chat
+            please get in touch
+        </p>
+        <form class="pt-5">
+          <div class="row">
+            <div class="col-12 col-6">
+              <input class="form-control" type="name" name="name" placeholder="Full Name" required/>
+            </div>
+            <div class="col-12 pt-3">
+              <input class="form-control" type="email" name="email" placeholder="Email Addree" required/>
+            </div>
+            <div class="col-12 pt-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message here" required></textarea>
+            </div>
+            <button type="button" class="btn btn-primary mt-5 col-3 btn">Submit</button>
+          </div>
+        </form>
+      </footer>
+  
+   
+  </body>
 </html>
